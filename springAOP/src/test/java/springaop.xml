@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans  xmlns="http://www.springframework.org/schema/beans"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:aop="http://www.springframework.org/schema/aop"
+        xsi:schemaLocation="
+           http://www.springframework.org/schema/beans
+           http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+           http://www.springframework.org/schema/aop
+           http://www.springframework.org/schema/aop/spring-aop-3.0.xsd">
+
+    <bean id="helloWorldService"
+          class="com.sunshine.spring.aop.service.impl.HelloWorldService"/>
+    <bean id="aspect" class="com.sunshine.spring.aop.aspect.HelloWorldAspect"/>
+
+    <aop:config>
+       <!-- “execution(* com.sunshine..*.*(..))”表示匹配cn.javass包及子包下的任何方法执行-->
+        <aop:pointcut id="pointcut" expression="execution(* com.sunshine..*.*(..))  " />
+        <aop:aspect ref="aspect">
+            <aop:before pointcut-ref="pointcut" method="beforeAdvice"></aop:before>
+            <aop:after method="afterFinallyAdvice" pointcut-ref="pointcut"></aop:after>
+            <!--<aop:after-returning method="" pointcut-ref="pointcut"></aop:after-returning>-->
+            <!--<aop:after-throwing method=""  pointcut-ref="pointcut"></aop:after-throwing>-->
+            <aop:around method="around" pointcut-ref="pointcut" ></aop:around>
+        </aop:aspect>
+    </aop:config>
+
+
+    <!--采用注解方式使用AOP-->
+    <aop:aspectj-autoproxy/>
+
+    <bean id="autoProxyAspect" class="com.sunshine.spring.aop.aspect.HelloWorldAspect2"/>
+
+</beans>
