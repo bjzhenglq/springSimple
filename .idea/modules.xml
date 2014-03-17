@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/springAOP/springAOP.iml" filepath="$PROJECT_DIR$/springAOP/springAOP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springJDBC/springJDBC.iml" filepath="$PROJECT_DIR$/springJDBC/springJDBC.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springMVC/springMVC.iml" filepath="$PROJECT_DIR$/springMVC/springMVC.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springSecurity/springSecurity.iml" filepath="$PROJECT_DIR$/springSecurity/springSecurity.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springSimple.iml" filepath="$PROJECT_DIR$/springSimple.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springTransaction/springTransaction.iml" filepath="$PROJECT_DIR$/springTransaction/springTransaction.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springWebFlow/springWebFlow.iml" filepath="$PROJECT_DIR$/springWebFlow/springWebFlow.iml" />
+    </modules>
+  </component>
+</project>
+
