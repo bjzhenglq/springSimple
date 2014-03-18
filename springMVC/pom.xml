@@ -11,5 +11,11 @@
 
     <artifactId>springMVC</artifactId>
 
-
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-webmvc</artifactId>
+            <version>${spring-version}</version>
+        </dependency>
+    </dependencies>
 </project>

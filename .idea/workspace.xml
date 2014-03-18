@@ -2,15 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a6b66ad4-aa70-4ff6-96c4-2c39df345e8b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springAOP/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springJDBC/src/main/java/com/sunshine/spring/jdbc/JdbcTemplateTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springORM/pom.xml" />
+      <change type="DELETED" beforePath="D:\dev\workspace\springSimple\.idea\libraries\Maven__org_springframework_spring_context_3_2_0_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\dev\workspace\springSimple\.idea\libraries\Maven__org_springframework_spring_expression_3_2_0_RELEASE.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springAOP/src/main/java/com/sunshine/spring/aop/aspect/HelloWorldAspect2.java" afterPath="$PROJECT_DIR$/springAOP/src/main/java/com/sunshine/spring/aop/aspect/HelloWorldAspect2.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springAOP/src/main/java/com/sunshine/spring/aop/service/IHelloWorldService.java" afterPath="$PROJECT_DIR$/springAOP/src/main/java/com/sunshine/spring/aop/service/IHelloWorldService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springAOP/src/main/java/com/sunshine/spring/aop/service/impl/HelloWorldService.java" afterPath="$PROJECT_DIR$/springAOP/src/main/java/com/sunshine/spring/aop/service/impl/HelloWorldService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springAOP/src/test/java/AOPTest.java" afterPath="$PROJECT_DIR$/springAOP/src/test/java/AOPTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springAOP/src/test/java/springaop.xml" afterPath="$PROJECT_DIR$/springAOP/src/test/java/springaop.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springAOP/src/test/java/springaopAnnoation.xml" afterPath="$PROJECT_DIR$/springAOP/src/test/java/springaopAnnoation.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springAOP/pom.xml" afterPath="$PROJECT_DIR$/springAOP/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springAOP/springAOP.iml" afterPath="$PROJECT_DIR$/springAOP/springAOP.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springJDBC/pom.xml" afterPath="$PROJECT_DIR$/springJDBC/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springJDBC/springJDBC.iml" afterPath="$PROJECT_DIR$/springJDBC/springJDBC.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springMVC/pom.xml" afterPath="$PROJECT_DIR$/springMVC/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springMVC/springMVC.iml" afterPath="$PROJECT_DIR$/springMVC/springMVC.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springSecurity/pom.xml" afterPath="$PROJECT_DIR$/springSecurity/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springSecurity/springSecurity.iml" afterPath="$PROJECT_DIR$/springSecurity/springSecurity.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springSimple.iml" afterPath="$PROJECT_DIR$/springSimple.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springTransaction/pom.xml" afterPath="$PROJECT_DIR$/springTransaction/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springTransaction/springTransaction.iml" afterPath="$PROJECT_DIR$/springTransaction/springTransaction.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springWebFlow/pom.xml" afterPath="$PROJECT_DIR$/springWebFlow/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springWebFlow/springWebFlow.iml" afterPath="$PROJECT_DIR$/springWebFlow/springWebFlow.iml" />
     </list>
     <ignored path="springSimple.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -152,94 +163,91 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="AOPTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springAOP/src/test/java/AOPTest.java">
+      <file leaf-file-name="DataSourceUtils.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-jdbc/3.2.0.RELEASE/spring-jdbc-3.2.0.RELEASE-sources.jar!/org/springframework/jdbc/datasource/DataSourceUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="0" selection-start="651" selection-end="651" vertical-scroll-proportion="0.0">
+            <state line="95" column="29" selection-start="4150" selection-end="4150" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JdkDynamicAopProxy.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/3.2.0.RELEASE/spring-aop-3.2.0.RELEASE-sources.jar!/org/springframework/aop/framework/JdkDynamicAopProxy.java">
+      <file leaf-file-name="GeneratedKeyHolder.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-jdbc/3.2.0.RELEASE/spring-jdbc-3.2.0.RELEASE-sources.jar!/org/springframework/jdbc/support/GeneratedKeyHolder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="203" column="0" selection-start="7621" selection-end="7621" vertical-scroll-proportion="0.0">
+            <state line="38" column="13" selection-start="1364" selection-end="1364" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HelloWorldService.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springAOP/src/main/java/com/sunshine/spring/aop/service/impl/HelloWorldService.java">
+      <file leaf-file-name="JdbcDaoSupport.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-jdbc/3.2.0.RELEASE/spring-jdbc-3.2.0.RELEASE-sources.jar!/org/springframework/jdbc/core/support/JdbcDaoSupport.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="0" selection-start="721" selection-end="721" vertical-scroll-proportion="0.0">
+            <state line="45" column="48" selection-start="1704" selection-end="1704" vertical-scroll-proportion="0.03551402">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ReflectiveMethodInvocation.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/3.2.0.RELEASE/spring-aop-3.2.0.RELEASE-sources.jar!/org/springframework/aop/framework/ReflectiveMethodInvocation.java">
+      <file leaf-file-name="JdbcTemplate.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-jdbc/3.2.0.RELEASE/spring-jdbc-3.2.0.RELEASE-sources.jar!/org/springframework/jdbc/core/JdbcTemplate.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="171" column="0" selection-start="5985" selection-end="5985" vertical-scroll-proportion="0.0">
+            <state line="162" column="11" selection-start="6405" selection-end="6405" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MethodBeforeAdviceInterceptor.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/3.2.0.RELEASE/spring-aop-3.2.0.RELEASE-sources.jar!/org/springframework/aop/framework/adapter/MethodBeforeAdviceInterceptor.java">
+      <file leaf-file-name="DaoSupport.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-tx/3.2.0.RELEASE/spring-tx-3.2.0.RELEASE-sources.jar!/org/springframework/dao/support/DaoSupport.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="49" column="0" selection-start="1660" selection-end="1660" vertical-scroll-proportion="0.0">
+            <state line="35" column="55" selection-start="1298" selection-end="1298" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AspectJMethodBeforeAdvice.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/3.2.0.RELEASE/spring-aop-3.2.0.RELEASE-sources.jar!/org/springframework/aop/aspectj/AspectJMethodBeforeAdvice.java">
+      <file leaf-file-name="InitializingBean.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/3.2.0.RELEASE/spring-beans-3.2.0.RELEASE-sources.jar!/org/springframework/beans/factory/InitializingBean.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="0" selection-start="1260" selection-end="1260" vertical-scroll-proportion="0.0">
+            <state line="34" column="17" selection-start="1379" selection-end="1379" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HelloWorldAspect.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/springAOP/src/main/java/com/sunshine/spring/aop/aspect/HelloWorldAspect.java">
+      <file leaf-file-name="TransactionSynchronization.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-tx/3.2.0.RELEASE/spring-tx-3.2.0.RELEASE-sources.jar!/org/springframework/transaction/support/TransactionSynchronization.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="0" selection-start="467" selection-end="467" vertical-scroll-proportion="0.385214">
+            <state line="36" column="17" selection-start="1545" selection-end="1545" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ExposeInvocationInterceptor.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/3.2.0.RELEASE/spring-aop-3.2.0.RELEASE-sources.jar!/org/springframework/aop/interceptor/ExposeInvocationInterceptor.java">
+      <file leaf-file-name="LazyConnectionDataSourceProxy.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-jdbc/3.2.0.RELEASE/spring-jdbc-3.2.0.RELEASE-sources.jar!/org/springframework/jdbc/datasource/LazyConnectionDataSourceProxy.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="92" column="0" selection-start="3514" selection-end="3514" vertical-scroll-proportion="0.0">
+            <state line="105" column="25" selection-start="4552" selection-end="4552" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AbstractAspectJAdvice.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/3.2.0.RELEASE/spring-aop-3.2.0.RELEASE-sources.jar!/org/springframework/aop/aspectj/AbstractAspectJAdvice.java">
+      <file leaf-file-name="DelegatingDataSource.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-jdbc/3.2.0.RELEASE/spring-jdbc-3.2.0.RELEASE-sources.jar!/org/springframework/jdbc/datasource/DelegatingDataSource.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="602" column="0" selection-start="21289" selection-end="21289" vertical-scroll-proportion="0.0">
+            <state line="63" column="16" selection-start="1844" selection-end="1844" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="springaopAnnoation.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springAOP/src/test/java/springaopAnnoation.xml">
-          <provider editor-type-id="com.intellij.spring.perspectives.SpringBeansStructureEditorProvider">
-            <state />
-          </provider>
+      <file leaf-file-name="TransactionSynchronizationAdapter.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-tx/3.2.0.RELEASE/spring-tx-3.2.0.RELEASE-sources.jar!/org/springframework/transaction/support/TransactionSynchronizationAdapter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="0" selection-start="510" selection-end="510" vertical-scroll-proportion="-2.7142856">
+            <state line="32" column="81" selection-start="1285" selection-end="1285" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -267,15 +275,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/springAOP/src/main/java/com/sunshine/aop/service/com/sunshine/aop/aspect/HelloWorldAspect.java" />
-        <option value="$PROJECT_DIR$/springAOP/src/main/resources/springaop.xml" />
-        <option value="$PROJECT_DIR$/springAOP/pom.xml" />
-        <option value="$PROJECT_DIR$/springAOP/src/main/java/com/sunshine/spring/aop/aspect/HelloWorldAspect.java" />
-        <option value="$PROJECT_DIR$/springAOP/src/test/java/springaop_annoation.xml" />
-        <option value="$PROJECT_DIR$/springAOP/src/test/java/AOPTest2.java" />
-        <option value="$PROJECT_DIR$/springAOP/src/main/java/com/sunshine/spring/aop/service/impl/HelloWorldServiceAnnoation.java" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/springAOP/README.md" />
         <option value="$PROJECT_DIR$/springAOP/src/test/java/springaop.xml" />
         <option value="$PROJECT_DIR$/springAOP/src/main/java/com/sunshine/spring/aop/service/IHelloWorldService.java" />
@@ -283,6 +282,15 @@
         <option value="$PROJECT_DIR$/springAOP/src/main/java/com/sunshine/spring/aop/aspect/HelloWorldAspect2.java" />
         <option value="$PROJECT_DIR$/springAOP/src/test/java/AOPTest.java" />
         <option value="$PROJECT_DIR$/springAOP/src/test/java/springaopAnnoation.xml" />
+        <option value="$PROJECT_DIR$/springAOP/pom.xml" />
+        <option value="$PROJECT_DIR$/springTransaction/pom.xml" />
+        <option value="$PROJECT_DIR$/springMVC/pom.xml" />
+        <option value="$PROJECT_DIR$/springSecurity/pom.xml" />
+        <option value="$PROJECT_DIR$/springWebFlow/pom.xml" />
+        <option value="$PROJECT_DIR$/springORM/pom.xml" />
+        <option value="$PROJECT_DIR$/springJDBC/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/springJDBC/src/main/java/com/sunshine/spring/jdbc/JdbcTemplateTest.java" />
       </list>
     </option>
   </component>
@@ -295,6 +303,7 @@
     </option>
   </component>
   <component name="MavenProjectNavigator">
+    <option name="groupStructurally" value="true" />
     <option name="showIgnored" value="false" />
     <treeState>
       <PATH>
@@ -302,6 +311,14 @@
           <option name="myItemId" value="" />
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
         </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="springSimple" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Modules" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ModulesNode" />
+        </PATH_ELEMENT>
       </PATH>
       <PATH>
         <PATH_ELEMENT>
@@ -309,7 +326,15 @@
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
-          <option name="myItemId" value="springAOP" />
+          <option name="myItemId" value="springSimple" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Modules" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ModulesNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="springJDBC" />
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
         </PATH_ELEMENT>
       </PATH>
@@ -319,12 +344,30 @@
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
-          <option name="myItemId" value="springAOP" />
+          <option name="myItemId" value="springSimple" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Modules" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ModulesNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="springJDBC" />
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
           <option name="myItemId" value="Lifecycle" />
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$LifecycleNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="springSimple" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
         </PATH_ELEMENT>
       </PATH>
     </treeState>
@@ -411,158 +454,12 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="springSimple" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="springSimple" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="springAOP" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="springSimple" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="springSimple" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="springAOP" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="springSimple" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="springSimple" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="springAOP" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="aop" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="service" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="springSimple" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="springSimple" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="springAOP" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="aop" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="service" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="impl" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="springSimple" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="springSimple" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="springAOP" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="aop" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="aspect" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="119" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="126" />
@@ -591,7 +488,7 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
-    <property name="options.lastSelected" value="preferences.keymap" />
+    <property name="options.lastSelected" value="reference.projectsettings.compiler.rmicompiler" />
     <property name="project.structure.side.proportion" value="0.19421965" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="dynamic.classpath" value="false" />
@@ -611,7 +508,7 @@
       <recent name="D:\dev\workspace\springSimple\springAOP\src\main\java\com\sunshine\spring\aop\service" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.AOPTest">
+  <component name="RunManager" selected="JUnit.JdbcTemplateTest">
     <configuration default="false" name="AOPTest" type="JUnit" factoryName="JUnit" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="springAOP" />
@@ -698,6 +595,34 @@
       </RunnerSettings>
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="JdbcTemplateTest" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.sunshine.spring.jdbc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="springJDBC" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.sunshine.spring.jdbc" />
+      <option name="MAIN_CLASS_NAME" value="com.sunshine.spring.jdbc.JdbcTemplateTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
@@ -847,10 +772,11 @@
         <option name="Maven.BeforeRunTask" enabled="false" />
       </method>
     </configuration>
-    <list size="3">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="JUnit.AOPTest" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.AOPTest.testHelloworld" />
       <item index="2" class="java.lang.String" itemvalue="Maven.springAOP [test]" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.JdbcTemplateTest" />
     </list>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
@@ -902,9 +828,9 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.215478" sideWeight="0.661512" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19650987" sideWeight="0.661512" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27996966" sideWeight="0.45360824" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19575115" sideWeight="0.661512" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33848798" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1006,119 +932,114 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/3.2.0.RELEASE/spring-aop-3.2.0.RELEASE-sources.jar!/org/springframework/aop/config/AopConfigUtils.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-jdbc/3.2.0.RELEASE/spring-jdbc-3.2.0.RELEASE-sources.jar!/org/springframework/jdbc/datasource/DriverManagerDataSource.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="31" selection-start="1962" selection-end="1962" vertical-scroll-proportion="0.0">
+        <state line="65" column="64" selection-start="3261" selection-end="3261" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/3.2.0.RELEASE/spring-aop-3.2.0.RELEASE-sources.jar!/org/springframework/aop/config/AspectJAutoProxyBeanDefinitionParser.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-jdbc/3.2.0.RELEASE/spring-jdbc-3.2.0.RELEASE-sources.jar!/org/springframework/jdbc/datasource/AbstractDriverBasedDataSource.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="5" selection-start="1972" selection-end="1972" vertical-scroll-proportion="0.0">
+        <state line="33" column="67" selection-start="1109" selection-end="1109" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.11/junit-4.11.jar!/org/junit/runners/model/FrameworkMethod.class">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-jdbc/3.2.0.RELEASE/spring-jdbc-3.2.0.RELEASE-sources.jar!/org/springframework/jdbc/datasource/AbstractDataSource.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#0#2039#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Program Files/Java/jdk1.6.0_20/src.zip!/java/lang/reflect/Method.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="596" column="0" selection-start="23663" selection-end="23663" vertical-scroll-proportion="0.0">
+        <state line="38" column="60" selection-start="1368" selection-end="1368" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/Program Files/Java/jdk1.6.0_20/jre/lib/rt.jar!/sun/reflect/NativeMethodAccessorImpl.class">
+    <entry file="jar://D:/Program Files/Java/jdk1.6.0_20/src.zip!/javax/sql/DataSource.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="43" selection-start="799" selection-end="799" vertical-scroll-proportion="0.0">
+        <state line="55" column="50" selection-start="2497" selection-end="2497" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/Program Files/Java/jdk1.6.0_20/jre/lib/rt.jar!/sun/reflect/DelegatingMethodAccessorImpl.class">
+    <entry file="jar://D:/Program Files/Java/jdk1.6.0_20/src.zip!/javax/sql/CommonDataSource.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="28" selection-start="407" selection-end="407" vertical-scroll-proportion="0.0">
+        <state line="17" column="17" selection-start="420" selection-end="420" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springAOP/src/test/java/springaopAnnoation.xml">
-      <provider editor-type-id="com.intellij.spring.perspectives.SpringBeansStructureEditorProvider">
-        <state />
-      </provider>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-tx/3.2.0.RELEASE/spring-tx-3.2.0.RELEASE.jar!/org/springframework/transaction/support/TransactionSynchronization.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="510" selection-end="510" vertical-scroll-proportion="-2.7142856">
+        <state line="5" column="17" selection-start="181" selection-end="181" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/3.2.0.RELEASE/spring-aop-3.2.0.RELEASE-sources.jar!/org/springframework/aop/aspectj/AbstractAspectJAdvice.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-tx/3.2.0.RELEASE/spring-tx-3.2.0.RELEASE-sources.jar!/org/springframework/transaction/support/TransactionSynchronizationAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="602" column="0" selection-start="21289" selection-end="21289" vertical-scroll-proportion="0.0">
+        <state line="32" column="81" selection-start="1285" selection-end="1285" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/3.2.0.RELEASE/spring-aop-3.2.0.RELEASE-sources.jar!/org/springframework/aop/framework/adapter/MethodBeforeAdviceInterceptor.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-tx/3.2.0.RELEASE/spring-tx-3.2.0.RELEASE-sources.jar!/org/springframework/transaction/support/TransactionSynchronization.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="0" selection-start="1660" selection-end="1660" vertical-scroll-proportion="0.0">
+        <state line="36" column="17" selection-start="1545" selection-end="1545" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/3.2.0.RELEASE/spring-aop-3.2.0.RELEASE-sources.jar!/org/springframework/aop/interceptor/ExposeInvocationInterceptor.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-jdbc/3.2.0.RELEASE/spring-jdbc-3.2.0.RELEASE-sources.jar!/org/springframework/jdbc/datasource/LazyConnectionDataSourceProxy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="92" column="0" selection-start="3514" selection-end="3514" vertical-scroll-proportion="0.0">
+        <state line="105" column="25" selection-start="4552" selection-end="4552" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/3.2.0.RELEASE/spring-aop-3.2.0.RELEASE-sources.jar!/org/springframework/aop/framework/ReflectiveMethodInvocation.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-jdbc/3.2.0.RELEASE/spring-jdbc-3.2.0.RELEASE-sources.jar!/org/springframework/jdbc/datasource/DelegatingDataSource.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="171" column="0" selection-start="5985" selection-end="5985" vertical-scroll-proportion="0.0">
+        <state line="63" column="16" selection-start="1844" selection-end="1844" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/3.2.0.RELEASE/spring-aop-3.2.0.RELEASE-sources.jar!/org/springframework/aop/framework/JdkDynamicAopProxy.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-jdbc/3.2.0.RELEASE/spring-jdbc-3.2.0.RELEASE-sources.jar!/org/springframework/jdbc/datasource/DataSourceUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="203" column="0" selection-start="7621" selection-end="7621" vertical-scroll-proportion="0.0">
+        <state line="95" column="29" selection-start="4150" selection-end="4150" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springAOP/src/main/java/com/sunshine/spring/aop/service/impl/HelloWorldService.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-jdbc/3.2.0.RELEASE/spring-jdbc-3.2.0.RELEASE-sources.jar!/org/springframework/jdbc/support/GeneratedKeyHolder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="0" selection-start="721" selection-end="721" vertical-scroll-proportion="0.0">
+        <state line="38" column="13" selection-start="1364" selection-end="1364" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springAOP/src/test/java/AOPTest.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/3.2.0.RELEASE/spring-beans-3.2.0.RELEASE-sources.jar!/org/springframework/beans/factory/InitializingBean.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="0" selection-start="651" selection-end="651" vertical-scroll-proportion="0.0">
+        <state line="34" column="17" selection-start="1379" selection-end="1379" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/3.2.0.RELEASE/spring-aop-3.2.0.RELEASE-sources.jar!/org/springframework/aop/aspectj/AspectJMethodBeforeAdvice.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-tx/3.2.0.RELEASE/spring-tx-3.2.0.RELEASE-sources.jar!/org/springframework/dao/support/DaoSupport.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="0" selection-start="1260" selection-end="1260" vertical-scroll-proportion="0.0">
+        <state line="35" column="55" selection-start="1298" selection-end="1298" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springAOP/src/main/java/com/sunshine/spring/aop/aspect/HelloWorldAspect.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-jdbc/3.2.0.RELEASE/spring-jdbc-3.2.0.RELEASE-sources.jar!/org/springframework/jdbc/core/JdbcTemplate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="0" selection-start="467" selection-end="467" vertical-scroll-proportion="0.385214">
+        <state line="162" column="11" selection-start="6405" selection-end="6405" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-jdbc/3.2.0.RELEASE/spring-jdbc-3.2.0.RELEASE-sources.jar!/org/springframework/jdbc/core/support/JdbcDaoSupport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="48" selection-start="1704" selection-end="1704" vertical-scroll-proportion="0.03551402">
           <folding />
         </state>
       </provider>
@@ -1199,11 +1120,11 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Maven: aopalliance:aopalliance:1.0</last-edited>
+          <last-edited>Maven: org.springframework:spring-beans:3.2.0.RELEASE</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.19421965" />
+                <option value="0.3951049" />
               </list>
             </option>
           </splitter-proportions>
