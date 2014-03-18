@@ -11,6 +11,7 @@
     <!--采用注解方式使用AOP-->
     <aop:aspectj-autoproxy/>
 
+
     <bean id="helloWorldService" class="com.sunshine.spring.aop.service.impl.HelloWorldService"/>
     <bean id="aspect" class="com.sunshine.spring.aop.aspect.HelloWorldAspect2"/>
 </beans>

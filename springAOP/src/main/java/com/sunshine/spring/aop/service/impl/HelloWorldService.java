@@ -15,11 +15,12 @@ import org.aspectj.lang.annotation.Pointcut;
 @Aspect
 public class HelloWorldService implements IHelloWorldService {
     @Override
-    public void sayHello(   ) {
+    public void sayHello() {
         System.out.println("============Hello World,This ia a aop test simple!");
     }
+
     @Override
-    public void beforePointcut(String paras) {
-        System.out.println("============Hello World,This ia a aop test simple!");
+    public void sayAnnoHello(String paras) {
+        System.out.println("============Hello World,This ia a aop annotation test simple!");
     }
 }

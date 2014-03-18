@@ -14,11 +14,17 @@ public class AOPTest {
 
     @Test
     public void testHelloworld() {
-        ApplicationContext ctx =  new ClassPathXmlApplicationContext("springaopAnnoation.xml");
-       // ApplicationContext ctx =  new ClassPathXmlApplicationContext("springaop.xml");
+       ApplicationContext ctx =  new ClassPathXmlApplicationContext("springaop.xml");
         IHelloWorldService helloworldService =
                 ctx.getBean("helloWorldService", IHelloWorldService.class);
-      //  helloworldService.sayHello( );
-        helloworldService.beforePointcut("AnnoationAOPTest");
+        helloworldService.sayHello( );
+    }
+
+    @Test
+    public void testAnnotaionHelloworld() {
+        ApplicationContext ctx = new ClassPathXmlApplicationContext("springaopAnnoation.xml");
+        IHelloWorldService helloworldService =
+                ctx.getBean("helloWorldService", IHelloWorldService.class);
+        helloworldService.sayAnnoHello("AnnoationAOPTest");
     }
 }

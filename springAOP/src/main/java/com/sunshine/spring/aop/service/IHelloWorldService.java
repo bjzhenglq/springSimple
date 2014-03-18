@@ -8,6 +8,7 @@ package com.sunshine.spring.aop.service;
  * To change this template use File | Settings | File Templates.
  */
 public interface IHelloWorldService {
-    public void sayHello(   );
-    public void beforePointcut(String paras   );
+    public void sayHello();
+
+    public void sayAnnoHello(String paras);
 }

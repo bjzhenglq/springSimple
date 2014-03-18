@@ -20,14 +20,7 @@
             <aop:after method="afterFinallyAdvice" pointcut-ref="pointcut"></aop:after>
             <!--<aop:after-returning method="" pointcut-ref="pointcut"></aop:after-returning>-->
             <!--<aop:after-throwing method=""  pointcut-ref="pointcut"></aop:after-throwing>-->
-            <aop:around method="around" pointcut-ref="pointcut" ></aop:around>
+            <!--<aop:around method="around" pointcut-ref="pointcut" ></aop:around>-->
         </aop:aspect>
     </aop:config>
-
-
-    <!--采用注解方式使用AOP-->
-    <aop:aspectj-autoproxy/>
-
-    <bean id="autoProxyAspect" class="com.sunshine.spring.aop.aspect.HelloWorldAspect2"/>
-
 </beans>
