@@ -2,26 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a6b66ad4-aa70-4ff6-96c4-2c39df345e8b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springJDBC/src/main/java/com/sunshine/spring/jdbc/JdbcTemplateTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/springORM/pom.xml" />
-      <change type="DELETED" beforePath="D:\dev\workspace\springSimple\.idea\libraries\Maven__org_springframework_spring_context_3_2_0_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\dev\workspace\springSimple\.idea\libraries\Maven__org_springframework_spring_expression_3_2_0_RELEASE.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springAOP/pom.xml" afterPath="$PROJECT_DIR$/springAOP/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springAOP/springAOP.iml" afterPath="$PROJECT_DIR$/springAOP/springAOP.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springJDBC/pom.xml" afterPath="$PROJECT_DIR$/springJDBC/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springJDBC/springJDBC.iml" afterPath="$PROJECT_DIR$/springJDBC/springJDBC.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springMVC/pom.xml" afterPath="$PROJECT_DIR$/springMVC/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springMVC/springMVC.iml" afterPath="$PROJECT_DIR$/springMVC/springMVC.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springSecurity/pom.xml" afterPath="$PROJECT_DIR$/springSecurity/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springSecurity/springSecurity.iml" afterPath="$PROJECT_DIR$/springSecurity/springSecurity.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springSimple.iml" afterPath="$PROJECT_DIR$/springSimple.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springTransaction/pom.xml" afterPath="$PROJECT_DIR$/springTransaction/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springTransaction/springTransaction.iml" afterPath="$PROJECT_DIR$/springTransaction/springTransaction.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springWebFlow/pom.xml" afterPath="$PROJECT_DIR$/springWebFlow/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springWebFlow/springWebFlow.iml" afterPath="$PROJECT_DIR$/springWebFlow/springWebFlow.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/springORM/pom.xml" afterPath="$PROJECT_DIR$/springORM/pom.xml" />
     </list>
     <ignored path="springSimple.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -163,15 +145,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="DataSourceUtils.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-jdbc/3.2.0.RELEASE/spring-jdbc-3.2.0.RELEASE-sources.jar!/org/springframework/jdbc/datasource/DataSourceUtils.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="95" column="29" selection-start="4150" selection-end="4150" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="GeneratedKeyHolder.java" pinned="false" current="false" current-in-tab="false">
         <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-jdbc/3.2.0.RELEASE/spring-jdbc-3.2.0.RELEASE-sources.jar!/org/springframework/jdbc/support/GeneratedKeyHolder.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -181,10 +154,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JdbcDaoSupport.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="JdbcDaoSupport.java" pinned="false" current="false" current-in-tab="false">
         <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-jdbc/3.2.0.RELEASE/spring-jdbc-3.2.0.RELEASE-sources.jar!/org/springframework/jdbc/core/support/JdbcDaoSupport.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="45" column="48" selection-start="1704" selection-end="1704" vertical-scroll-proportion="0.03551402">
+            <state line="80" column="7" selection-start="2759" selection-end="2759" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/springORM/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="30" selection-start="556" selection-end="556" vertical-scroll-proportion="0.53271025">
               <folding />
             </state>
           </provider>
@@ -287,10 +269,10 @@
         <option value="$PROJECT_DIR$/springMVC/pom.xml" />
         <option value="$PROJECT_DIR$/springSecurity/pom.xml" />
         <option value="$PROJECT_DIR$/springWebFlow/pom.xml" />
-        <option value="$PROJECT_DIR$/springORM/pom.xml" />
         <option value="$PROJECT_DIR$/springJDBC/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/springJDBC/src/main/java/com/sunshine/spring/jdbc/JdbcTemplateTest.java" />
+        <option value="$PROJECT_DIR$/springORM/pom.xml" />
       </list>
     </option>
   </component>
@@ -425,6 +407,16 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springSimple" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="Scope">
         <subPane subId="Project Files">
           <PATH>
@@ -435,7 +427,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -451,6 +442,64 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="springSimple" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springSimple" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springSimple" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springORM" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springSimple" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springSimple" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springORM" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springSimple" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springSimple" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springORM" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -825,16 +874,16 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32852808" sideWeight="0.7886598" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298969" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19650987" sideWeight="0.661512" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19575115" sideWeight="0.661512" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20333838" sideWeight="0.661512" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33848798" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298969" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -932,114 +981,86 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-jdbc/3.2.0.RELEASE/spring-jdbc-3.2.0.RELEASE-sources.jar!/org/springframework/jdbc/datasource/DriverManagerDataSource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="65" column="64" selection-start="3261" selection-end="3261" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-jdbc/3.2.0.RELEASE/spring-jdbc-3.2.0.RELEASE-sources.jar!/org/springframework/jdbc/datasource/AbstractDriverBasedDataSource.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="67" selection-start="1109" selection-end="1109" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="33" column="67" selection-start="1109" selection-end="1109" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-jdbc/3.2.0.RELEASE/spring-jdbc-3.2.0.RELEASE-sources.jar!/org/springframework/jdbc/datasource/AbstractDataSource.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="60" selection-start="1368" selection-end="1368" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="38" column="60" selection-start="1368" selection-end="1368" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="jar://D:/Program Files/Java/jdk1.6.0_20/src.zip!/javax/sql/DataSource.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="50" selection-start="2497" selection-end="2497" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="55" column="50" selection-start="2497" selection-end="2497" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="jar://D:/Program Files/Java/jdk1.6.0_20/src.zip!/javax/sql/CommonDataSource.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="17" selection-start="420" selection-end="420" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="17" column="17" selection-start="420" selection-end="420" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-tx/3.2.0.RELEASE/spring-tx-3.2.0.RELEASE.jar!/org/springframework/transaction/support/TransactionSynchronization.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="17" selection-start="181" selection-end="181" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-tx/3.2.0.RELEASE/spring-tx-3.2.0.RELEASE-sources.jar!/org/springframework/transaction/support/TransactionSynchronizationAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="81" selection-start="1285" selection-end="1285" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-tx/3.2.0.RELEASE/spring-tx-3.2.0.RELEASE-sources.jar!/org/springframework/transaction/support/TransactionSynchronization.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="17" selection-start="1545" selection-end="1545" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-jdbc/3.2.0.RELEASE/spring-jdbc-3.2.0.RELEASE-sources.jar!/org/springframework/jdbc/datasource/LazyConnectionDataSourceProxy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="105" column="25" selection-start="4552" selection-end="4552" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-jdbc/3.2.0.RELEASE/spring-jdbc-3.2.0.RELEASE-sources.jar!/org/springframework/jdbc/datasource/DelegatingDataSource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="63" column="16" selection-start="1844" selection-end="1844" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="5" column="17" selection-start="181" selection-end="181" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-jdbc/3.2.0.RELEASE/spring-jdbc-3.2.0.RELEASE-sources.jar!/org/springframework/jdbc/datasource/DataSourceUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="95" column="29" selection-start="4150" selection-end="4150" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="95" column="29" selection-start="4150" selection-end="4150" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-jdbc/3.2.0.RELEASE/spring-jdbc-3.2.0.RELEASE-sources.jar!/org/springframework/jdbc/support/GeneratedKeyHolder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="13" selection-start="1364" selection-end="1364" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/3.2.0.RELEASE/spring-beans-3.2.0.RELEASE-sources.jar!/org/springframework/beans/factory/InitializingBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="17" selection-start="1379" selection-end="1379" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-tx/3.2.0.RELEASE/spring-tx-3.2.0.RELEASE-sources.jar!/org/springframework/dao/support/DaoSupport.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="55" selection-start="1298" selection-end="1298" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="38" column="13" selection-start="1364" selection-end="1364" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-jdbc/3.2.0.RELEASE/spring-jdbc-3.2.0.RELEASE-sources.jar!/org/springframework/jdbc/core/JdbcTemplate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="162" column="11" selection-start="6405" selection-end="6405" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="162" column="11" selection-start="6405" selection-end="6405" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-tx/3.2.0.RELEASE/spring-tx-3.2.0.RELEASE-sources.jar!/org/springframework/dao/support/DaoSupport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="55" selection-start="1298" selection-end="1298" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/3.2.0.RELEASE/spring-beans-3.2.0.RELEASE-sources.jar!/org/springframework/beans/factory/InitializingBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="17" selection-start="1379" selection-end="1379" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-tx/3.2.0.RELEASE/spring-tx-3.2.0.RELEASE-sources.jar!/org/springframework/transaction/support/TransactionSynchronization.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="17" selection-start="1545" selection-end="1545" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-jdbc/3.2.0.RELEASE/spring-jdbc-3.2.0.RELEASE-sources.jar!/org/springframework/jdbc/datasource/LazyConnectionDataSourceProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="105" column="25" selection-start="4552" selection-end="4552" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-jdbc/3.2.0.RELEASE/spring-jdbc-3.2.0.RELEASE-sources.jar!/org/springframework/jdbc/datasource/DelegatingDataSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="63" column="16" selection-start="1844" selection-end="1844" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-tx/3.2.0.RELEASE/spring-tx-3.2.0.RELEASE-sources.jar!/org/springframework/transaction/support/TransactionSynchronizationAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="81" selection-start="1285" selection-end="1285" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-jdbc/3.2.0.RELEASE/spring-jdbc-3.2.0.RELEASE-sources.jar!/org/springframework/jdbc/core/support/JdbcDaoSupport.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="48" selection-start="1704" selection-end="1704" vertical-scroll-proportion="0.03551402">
+        <state line="80" column="7" selection-start="2759" selection-end="2759" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springORM/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="30" selection-start="556" selection-end="556" vertical-scroll-proportion="0.53271025">
           <folding />
         </state>
       </provider>
