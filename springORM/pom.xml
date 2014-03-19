@@ -17,6 +17,12 @@
             <artifactId>spring-orm</artifactId>
             <version>${spring-version}</version>
         </dependency>
+
+        <dependency>
+            <groupId>org.hibernate</groupId>
+            <artifactId>hibernate</artifactId>
+            <version>3.5.4-Final</version>
+        </dependency>
     </dependencies>
 
 </project>
